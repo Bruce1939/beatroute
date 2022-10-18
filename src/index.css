@@ -21,7 +21,7 @@
   padding-bottom: 5px;
   border-width: 5px;
   white-space: nowrap;
-  margin-left: 100px;
+  margin-left: 20%;
 }
 
 .left h1 {
@@ -57,7 +57,7 @@
   align-items: center;
   justify-content: space-between;
   margin: 40px;
-  margin-left: 250px;
+  margin-left: 25%;
   margin-bottom: 70px;
 }
 
@@ -77,4 +77,10 @@
 .line p {
   margin-top: 30px;
   font-size: 12px;
+}
+
+@media(max-width: 768px) {
+  .right {
+    display: none;
+  }
 }
